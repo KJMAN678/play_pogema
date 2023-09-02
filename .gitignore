@@ -160,11 +160,16 @@ cython_debug/
 #.idea/
 
 # pogema で作成されるフォルダ、ファイル
-renders/
-*.svg
+notebook/renders/
+notebook/*.svg
+notebook/dqn_pogema_tensorboard/
 
 # requirements.txt 作成用ファイル
 requirements.in
 
 # メモ
 *_memo.txt
+
+# dockerfileで作成されるフォルダ
+data/
+ipynb/
